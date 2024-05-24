@@ -1,5 +1,4 @@
-print("booga reborn silent bypass!")
- 
+
 local OldDebug
 OldDebug = hookfunction(debug.getinfo, function(func)
     if func == 2 then
