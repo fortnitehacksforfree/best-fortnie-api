@@ -1,4 +1,5 @@
-
+print("booga reborn silent bypass!")
+ 
 local OldDebug
 OldDebug = hookfunction(debug.getinfo, function(func)
     if func == 2 then
@@ -1042,7 +1043,7 @@ task.spawn(function()
             local box = get_nearest_empty_plantbox()
 
             if box then
-                packets.InteractStructure.send({["structure"] = box, ["itemID"] = item_ids[plant_fruit]})
+                packets.InteractStructure.send({["entityID"] = box:GetAttribute("EntityID"), ["itemID"] = item_ids[plant_fruit]})
             end
         end
     end
@@ -1056,71 +1057,18 @@ task.spawn(function()
             local bush = get_nearest_bush()
 
             if bush then
-                packets.Pickup.send(bush)
+                packets.Pickup.send(bush:GetAttribute("EntityID"))
             end
         end
     end
 end)
 
--- autoheal loop
-
-local last_eat = tick()
-
-task.spawn(function()
-    while task.wait() do
-        if tick() - last_eat > 1/health_cps then
-            last_eat = tick()
-            if autoheal then
-
-                if local_player.Character:FindFirstChildOfClass("Humanoid").Health < health_threshold then
-                    local ind = get_index(health_fruit)
-                
-                    if ind then
-                        packets.UseBagItem.send(ind)
-                    end
-                end
-
-            end
-        end
-    end
-end)
-
--- killaura loop
-
-local last_attack = tick()
-
-task.spawn(function()
-	while task.wait(.05) do
-		if ka then
-			for _, player in next, players:GetPlayers() do
-				if player ~= local_player and player.Character and player.Character.PrimaryPart then
-					local dist = (player.Character:GetPivot().Position - local_player.Character:GetPivot().Position).Magnitude
-
-					if dist < 25 and tick() - last_attack > 1/3 then
-						print("swing")
-						last_attack = tick()
-						packets.SwingTool.send({player.Character.PrimaryPart})
-					end
-				end
-			end
-		end
-	end
-end)
-
-
-
-
-
-
-
-
--- Assuming you have defined the combat_tab:NewToggle function somewhere in your script
 
 local isRunning = false
 
 farming_tab:NewToggle({
     Name = "Autoharvest",
-    default = true,
+    default = false,
     callback = function(v)
         autoharvest = v
     end,
@@ -1130,7 +1078,7 @@ farming_tab:NewSlider({
     Name = "Autoharvest range",
     min = 1,
     max = 50,
-    default = 35,
+    default = 15,
     callback = function(v)
         harvest_range = v
     end,
@@ -1138,7 +1086,7 @@ farming_tab:NewSlider({
 --raf
 farming_tab:NewToggle({
     Name = "Autoplant",
-    default = true,
+    default = false,
     callback = function(v)
         autoplant = v
     end,
@@ -1148,7 +1096,7 @@ farming_tab:NewSlider({
     Name = "Autoplant range",
     min = 0,
     max = 35,
-    default = 25,
+    default = 15,
     callback = function(v)
         plant_range = v
     end,
@@ -1167,8 +1115,3 @@ farming_tab:NewDropDown({
         plant_fruit = v
     end,
 })
-
-
-
-
-
