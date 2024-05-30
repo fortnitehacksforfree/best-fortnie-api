@@ -1,4 +1,4 @@
-
+print("Start of log:")
 --initialize config variables
 optimize=false --optimizations can occasionally break the script on older or newer servers if the number of packets has been updated, so the value is configgable
 
