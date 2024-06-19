@@ -95,7 +95,7 @@ function Fun.Create(title)
 
     mainSide.Name = "mainSide"
     mainSide.Parent = mainFrame
-    mainSide.BackgroundColor3 = Color3.fromRGB(171,101,101)
+    mainSide.BackgroundColor3 = Color3.fromRGB(0,0,0)
     mainSide.Size = UDim2.new(0, 166, 0, 396)
 
     UICorner.CornerRadius = UDim.new(0, 6)
@@ -225,7 +225,7 @@ function Fun.Create(title)
                 end
             end
             game.TweenService:Create(tabButton, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {
-                TextColor3 = Color3.fromRGB(0,0,0)
+                TextColor3 = Color3.fromRGB(255,255,255)
             }):Play()
             ----------------------
             --Page Functioning
@@ -238,7 +238,7 @@ function Fun.Create(title)
         end)
 
         local sectionHandling = {}
-
+--toggle
         function sectionHandling:Section(sectionName)
             ---
             sectionName = sectionName or "Section"
@@ -285,7 +285,7 @@ function Fun.Create(title)
             UICorner_3.Parent = sectionCircle
 
             TextLabel.Parent = sectionFrameHead
-            TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
             TextLabel.BackgroundTransparency = 1.000
             TextLabel.Position = UDim2.new(0.0992907807, 0, 0.194444448, 0)
             TextLabel.Size = UDim2.new(0, 173, 0, 22)
@@ -295,7 +295,7 @@ function Fun.Create(title)
             TextLabel.TextSize = 14.000
             TextLabel.TextXAlignment = Enum.TextXAlignment.Left
 
-            --toggle
+            --textbox
 
             closeSection.Name = "closeSection"
             closeSection.Parent = sectionFrameHead
@@ -494,12 +494,12 @@ function Fun.Create(title)
                 checkBoxInfo.Size = UDim2.new(0, 200, 0, 19)
                 checkBoxInfo.Font = Enum.Font.Gotham
                 checkBoxInfo.Text = togInfo
-                checkBoxInfo.TextColor3 = Color3.fromRGB(150,150,150)
+                checkBoxInfo.TextColor3 = Color3.fromRGB(0,0,0)
                 checkBoxInfo.TextSize = 14.000
                 checkBoxInfo.TextXAlignment = Enum.TextXAlignment.Left
                 local clickDe = false
                 local hoverDe = false
-
+--textlabel
                 checkBox.MouseEnter:Connect(function()
                     if not tog then
                         game.TweenService:Create(checkBox, TweenInfo.new(0.08, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {
@@ -599,7 +599,7 @@ function Fun.Create(title)
                     TextBox.TextColor3 = Color3.fromRGB(0,0,0)
                     TextBox.TextSize = 16.000
                     TextBox.TextWrapped = true
-
+--label
                     UICorner.CornerRadius = UDim.new(0, 5)
                     UICorner.Parent = TextBox
 
